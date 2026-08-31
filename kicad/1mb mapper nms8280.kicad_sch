@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "f3c5738e-f967-4261-9d5d-47df8254fb38")
 	(paper "A4")
+	(title_block
+		(title "Mapper 1MB MSX NMS8280")
+		(date "2026-08-30")
+	)
 	(lib_symbols
 		(symbol "74xx:74LS157"
 			(pin_names
@@ -3399,6 +3403,12 @@
 		(uuid "fb53f136-dc90-486c-9347-acac9bc0e469")
 	)
 	(junction
+		(at 99.06 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0366ecb8-ebac-4be7-8f5c-0c92fcbc31e6")
+	)
+	(junction
 		(at 88.9 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3417,22 +3427,10 @@
 		(uuid "16178cf3-202d-453f-af96-cc82623181c6")
 	)
 	(junction
-		(at 97.79 116.84)
+		(at 96.52 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18ee617a-28e4-4226-af51-885348a6ce6c")
-	)
-	(junction
-		(at 95.25 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54bd1e44-7bce-4d72-ac01-58b0511155cc")
-	)
-	(junction
-		(at 92.71 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a3aad91-9919-4287-90c1-2bbd90175cdc")
+		(uuid "528d588d-2c48-4e78-8d0f-83d330814fd1")
 	)
 	(junction
 		(at 144.78 114.3)
@@ -3447,6 +3445,18 @@
 		(uuid "5fbed067-c390-4f9c-8fcb-e82707d5a70e")
 	)
 	(junction
+		(at 101.6 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b622675-5e10-46f8-8c74-cd60e819c71f")
+	)
+	(junction
+		(at 104.14 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8da743e8-0aef-4561-8bc7-8e7402463d93")
+	)
+	(junction
 		(at 76.2 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3457,12 +3467,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c27c847-027a-4592-b32e-648b79c5608d")
-	)
-	(junction
-		(at 100.33 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfe5c7dd-d302-4791-b319-8ca8d72467ff")
 	)
 	(junction
 		(at 149.86 109.22)
@@ -3483,6 +3487,12 @@
 		(uuid "e9c69f6e-9fad-407c-a2d2-d20019b4a63e")
 	)
 	(junction
+		(at 137.16 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0dede83-6122-4e23-9f9d-c2b1fc69d6ba")
+	)
+	(junction
 		(at 74.93 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3500,7 +3510,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 31.75) (xy 195.58 31.75)
+			(xy 96.52 31.75) (xy 195.58 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3590,13 +3600,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 116.84) (xy 111.76 116.84)
+			(xy 142.24 111.76) (xy 142.24 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e9c0ea4-1c7b-4022-97ae-0f472276a4c1")
+		(uuid "1d3c2ab6-ce22-4ed7-b041-6946f1c859dc")
 	)
 	(wire
 		(pts
@@ -3620,7 +3630,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 29.21) (xy 195.58 29.21)
+			(xy 101.6 29.21) (xy 195.58 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3630,7 +3640,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 153.67) (xy 100.33 133.35)
+			(xy 104.14 153.67) (xy 104.14 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3670,6 +3680,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 130.81) (xy 142.24 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360f2bb7-57d6-4a7a-8721-228d7acc54bd")
+	)
+	(wire
+		(pts
 			(xy 142.24 130.81) (xy 142.24 116.84)
 		)
 		(stroke
@@ -3690,7 +3710,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 38.1) (xy 95.25 38.1)
+			(xy 26.67 38.1) (xy 99.06 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3710,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 133.35) (xy 100.33 40.64)
+			(xy 104.14 133.35) (xy 104.14 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3760,7 +3780,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 116.84) (xy 97.79 29.21)
+			(xy 101.6 116.84) (xy 101.6 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3780,7 +3800,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 161.29) (xy 118.11 161.29)
+			(xy 99.06 161.29) (xy 118.11 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3830,7 +3850,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 130.81) (xy 95.25 161.29)
+			(xy 99.06 130.81) (xy 99.06 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3880,7 +3900,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 151.13) (xy 118.11 151.13)
+			(xy 106.68 151.13) (xy 118.11 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3930,7 +3950,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 31.75) (xy 92.71 114.3)
+			(xy 96.52 31.75) (xy 96.52 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3950,7 +3970,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 130.81) (xy 95.25 38.1)
+			(xy 99.06 130.81) (xy 99.06 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3980,7 +4000,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 158.75) (xy 97.79 158.75)
+			(xy 118.11 158.75) (xy 101.6 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3990,7 +4010,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 135.89) (xy 149.86 135.89)
+			(xy 106.68 135.89) (xy 149.86 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4010,7 +4030,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 168.91) (xy 92.71 168.91)
+			(xy 134.62 168.91) (xy 96.52 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4030,7 +4050,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 151.13) (xy 102.87 135.89)
+			(xy 137.16 111.76) (xy 142.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf08949-6f1c-4734-84f4-1854e9107a8c")
+	)
+	(wire
+		(pts
+			(xy 106.68 151.13) (xy 106.68 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4060,7 +4090,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 158.75) (xy 97.79 116.84)
+			(xy 101.6 158.75) (xy 101.6 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4080,7 +4110,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 40.64) (xy 100.33 40.64)
+			(xy 26.67 40.64) (xy 104.14 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4090,23 +4120,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 133.35) (xy 182.88 133.35)
+			(xy 137.16 109.22) (xy 137.16 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a41a44bb-b8cd-4689-ac58-47d9c40fe994")
+		(uuid "a6754bce-96c4-4a17-bfae-7de97a20534f")
 	)
 	(wire
 		(pts
-			(xy 92.71 114.3) (xy 111.76 114.3)
+			(xy 104.14 133.35) (xy 182.88 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a59d04f9-812e-4934-a3ca-ddf9b64c5b75")
+		(uuid "a710cfd9-293b-4261-9c4b-9ca2df9964d6")
 	)
 	(wire
 		(pts
@@ -4127,6 +4157,16 @@
 			(type default)
 		)
 		(uuid "abe9703f-854e-4b6c-8d0c-76c60486bae2")
+	)
+	(wire
+		(pts
+			(xy 101.6 116.84) (xy 111.76 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0e3cb3-f16f-4f49-8591-ae21328bc0d7")
 	)
 	(wire
 		(pts
@@ -4160,7 +4200,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 153.67) (xy 100.33 153.67)
+			(xy 118.11 153.67) (xy 104.14 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4280,6 +4320,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 81.28) (xy 142.24 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d74021fc-8682-4195-9750-a5dab2266dd9")
+	)
+	(wire
+		(pts
 			(xy 17.78 21.59) (xy 17.78 168.91)
 		)
 		(stroke
@@ -4317,6 +4367,16 @@
 			(type default)
 		)
 		(uuid "e67c1b12-1892-4702-9ce0-58e585d6f43d")
+	)
+	(wire
+		(pts
+			(xy 96.52 114.3) (xy 111.76 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7bd621a-7556-4aab-9a9f-cd9254c90906")
 	)
 	(wire
 		(pts
@@ -4360,7 +4420,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 168.91) (xy 92.71 114.3)
+			(xy 96.52 168.91) (xy 96.52 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4387,16 +4447,6 @@
 			(type default)
 		)
 		(uuid "f7af6f69-7fe9-40aa-b273-324bdb30ea30")
-	)
-	(wire
-		(pts
-			(xy 95.25 130.81) (xy 142.24 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd624d11-a92d-4e35-92ec-0d8e7a0ee187")
 	)
 	(wire
 		(pts
@@ -5428,16 +5478,6 @@
 		)
 		(uuid "da24c88d-6c2e-48cf-b548-c5b26e45ff09")
 	)
-	(label "Vcc"
-		(at 276.86 27.94 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left bottom)
-		)
-		(uuid "dbd148c9-8b04-4dcf-900f-ec4fe5a2292d")
-	)
 	(label "IC131_P1_IC131B"
 		(at 118.11 148.59 180)
 		(effects
@@ -5579,7 +5619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01961b94-8250-430d-8a5f-c45ba49d3ba4")
-		(property "Reference" "IC180B"
+		(property "Reference" "IC180B1"
 			(at 91.694 139.192 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5677,7 +5717,7 @@
 		(instances
 			(project "1mb mapper nms8280"
 				(path "/f3c5738e-f967-4261-9d5d-47df8254fb38"
-					(reference "IC180B")
+					(reference "IC180B1")
 					(unit 1)
 				)
 			)
@@ -5694,7 +5734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1608fd91-40a5-47de-abb3-e55203739379")
-		(property "Reference" "IC149B"
+		(property "Reference" "IC149B1"
 			(at 127.508 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5800,7 +5840,7 @@
 		(instances
 			(project "1mb mapper nms8280"
 				(path "/f3c5738e-f967-4261-9d5d-47df8254fb38"
-					(reference "IC149B")
+					(reference "IC149B1")
 					(unit 1)
 				)
 			)
@@ -5933,7 +5973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33a6eb34-bf78-4d8e-8a7a-2583b6157577")
-		(property "Reference" "IC131B"
+		(property "Reference" "IC131B1"
 			(at 126.7139 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6031,7 +6071,7 @@
 		(instances
 			(project "1mb mapper nms8280"
 				(path "/f3c5738e-f967-4261-9d5d-47df8254fb38"
-					(reference "IC131B")
+					(reference "IC131B1")
 					(unit 1)
 				)
 			)
@@ -6172,7 +6212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c3a1dfc-de44-4344-9f88-d3987ea2bf56")
-		(property "Reference" "IC147"
+		(property "Reference" "IC3"
 			(at 244.7133 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6278,7 +6318,7 @@
 		(instances
 			(project "1mb mapper nms8280"
 				(path "/f3c5738e-f967-4261-9d5d-47df8254fb38"
-					(reference "IC147")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -6295,7 +6335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6782be7a-eb86-4dee-bd85-e475065f6770")
-		(property "Reference" "IC157B"
+		(property "Reference" "IC157B1"
 			(at 91.44 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6393,7 +6433,7 @@
 		(instances
 			(project "1mb mapper nms8280"
 				(path "/f3c5738e-f967-4261-9d5d-47df8254fb38"
-					(reference "IC157B")
+					(reference "IC157B1")
 					(unit 1)
 				)
 			)
@@ -6508,7 +6548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "983959f8-1161-4c1e-981d-1a26589fca69")
-		(property "Reference" "CONN147"
+		(property "Reference" "CONN3"
 			(at 277.622 20.574 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6612,7 +6652,7 @@
 		(instances
 			(project "1mb mapper nms8280"
 				(path "/f3c5738e-f967-4261-9d5d-47df8254fb38"
-					(reference "CONN147")
+					(reference "CONN3")
 					(unit 1)
 				)
 			)
@@ -6630,7 +6670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecac232c-773f-42c1-990e-5c219949210b")
-		(property "Reference" "IC147B"
+		(property "Reference" "IC147B1"
 			(at 210.4233 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6736,7 +6776,7 @@
 		(instances
 			(project "1mb mapper nms8280"
 				(path "/f3c5738e-f967-4261-9d5d-47df8254fb38"
-					(reference "IC147B")
+					(reference "IC147B1")
 					(unit 1)
 				)
 			)
