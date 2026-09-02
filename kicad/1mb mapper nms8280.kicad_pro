@@ -50,10 +50,32 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -187,7 +209,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +238,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -226,7 +255,13 @@
       "mpn": "",
       "sch_revision": ""
     },
-    "layer_pairs": [],
+    "layer_pairs": [
+      {
+        "bottomLayer": 2,
+        "enabled": true,
+        "topLayer": 0
+      }
+    ],
     "layer_presets": [],
     "viewports": []
   },
@@ -510,6 +545,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -628,17 +664,26 @@
     "top_level_sheets": [
       {
         "filename": "1mb mapper nms8280.kicad_sch",
-        "name": "1mb mapper nms8280",
+        "name": "buffer cas section",
         "uuid": "f3c5738e-f967-4261-9d5d-47df8254fb38"
+      },
+      {
+        "filename": "ram_section.kicad_sch",
+        "name": "ram section",
+        "uuid": "d4d85c86-7b36-437e-bfa7-8722d5545f0a"
       }
     ],
-    "used_designators": "U1-6,C1-12,IC131B1,IC147B1,IC1-3,J1-2,CONN1-3,IC149B1,IC180B1,IC157B1",
+    "used_designators": "U1-8,C1-12,IC131B1,IC147B1,IC1-3,J1-2,CONN1-3,IC149B1,IC180B1,IC157B1",
     "variants": []
   },
   "sheets": [
     [
       "f3c5738e-f967-4261-9d5d-47df8254fb38",
-      "1mb mapper nms8280"
+      "buffer cas section"
+    ],
+    [
+      "d4d85c86-7b36-437e-bfa7-8722d5545f0a",
+      "ram section"
     ]
   ],
   "text_variables": {},

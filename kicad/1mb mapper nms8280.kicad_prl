@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 25,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -57,7 +57,7 @@
     "zone_display_mode": 0
   },
   "git": {
-    "integration_disabled": false,
+    "integration_disabled": true,
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
@@ -95,11 +95,11 @@
       162,
       147,
       91,
-      76,
+      82,
       91,
       91,
       91,
-      67,
+      72,
       91,
       91
     ],

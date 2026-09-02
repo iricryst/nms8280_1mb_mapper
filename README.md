@@ -1,5 +1,7 @@
 # nms8280_1mb_mapper
 
+![1MB mapper PCB](./kicad/pcb_1mbmapper.png)
+
 Project to document and create a 1MB module for a Philips NMS8280 MSX. Based on a paper by Hans Oranje.
 
 ## Reference documents
